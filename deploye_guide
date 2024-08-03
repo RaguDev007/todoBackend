@@ -1,0 +1,35 @@
+##steps 1
+  keep the vps to be update 
+i prefer centos linux , alma linux , 
+   run cmd : sudo apt update
+  
+##steps 2
+  install java 17 
+ * the lates on will be prefered to avoid the conflicts 
+ * check the java intallation by 
+    cmd : java --version 
+
+##steps 3
+* after installation 
+* create a folder of this project backend todo 
+* inside this folder pull the code from the url "https://github.com/RaguDev007/todoBackend.git"
+     cmd git pull "https://github.com/RaguDev007/todoBackend.git"
+*install genkins to build the code 
+
+
+##steps 4
+change the directory to target folder inside the backend project and search for jar file 
+run cmd : nohup java -jar Todo-0.0.1-SNAPSHOT.jar &
+* this command will run the command java jar in background 
+##step 5
+
+
+* here create a data of mysql in the aws before going further 
+* keep the database name and username , password as planned in our properties file 
+* open the port that our appliction need in the section , security inbound rules to access the port ex: 8081 as acess able from outside 
+* after doing this that perticular port in the ip addreess will be acessable by the external files 
+
+##steps 6
+* test the with api tester like post man or from teh front end by changing the #ip  as address and port number
+
+
