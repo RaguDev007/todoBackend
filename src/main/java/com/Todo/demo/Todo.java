@@ -5,11 +5,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.data.jpa.repository.config.EnableJpaRepositories;
 
 @SpringBootApplication
-
-public class BookMangmentAppApplication {
+public class Todo {
 
 	public static void main(String[] args) {
-		SpringApplication.run(BookMangmentAppApplication.class, args);
+		SpringApplication.run(Todo.class, args);
 	}
 
 }

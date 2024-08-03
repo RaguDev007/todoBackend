@@ -1,10 +1,10 @@
-package com.BookMangment.demo;
+package com.Todo.demo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class BookMangmentAppApplicationTests {
+class TodoTests {
 
 	@Test
 	void contextLoads() {
